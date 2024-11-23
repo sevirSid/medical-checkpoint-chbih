@@ -2,8 +2,8 @@ import type { TranslationsStore } from './types';
 
 export const translations: TranslationsStore = {
   fr: {
-    title: 'Points de contrôle médical',
-    description: 'En plus de proposer des soins gratuits à ses employés, Tasiast leur offre également la solution la plus pratique pour y accéder rapidement.',
+    title: 'Votre santé, notre priorité : Réseau de santé de Tasiast en Mauritanie',
+    description: 'Trouvez les centres médicaux et pharmacies à proximité inclus dans votre plan de santé.',
     searchPlaceholder: 'Rechercher des établissements médicaux...',
     filter: 'Filtrer',
     filterFacilities: 'Filtrer les établissements',
@@ -22,7 +22,7 @@ export const translations: TranslationsStore = {
     speciality: 'Spécialité',
     city: 'Ville',
     type: 'Type',
-    footer: 'Ce site web a été créé par un employé de Tasiast ; cependant, Tasiast n\'est pas responsable des inexactitudes éventuelles.',
+    footer: 'Ce site web a été développé pour la commodité des employés de Tasiast. Bien que nous nous efforcions de fournir des informations précises et à jour, Tasiast ne peut être tenue responsable d’éventuelles inexactitudes. Si vous constatez des erreurs, veuillez contacter directement le service informatique de Tasiast. Pour toute question ou tout commentaire, veuillez vous adresser au service des ressources humaines de Tasiast.',
     types: {
       clinique: 'Clinique',
       cabinet: 'Cabinet',
@@ -120,8 +120,8 @@ export const translations: TranslationsStore = {
     resetAll: 'Reset All'
   },
   ar: {
-    title: 'نقاط الفحص الطبي',
-    description: 'بالإضافة إلى تقديم رعاية صحية مجانية لموظفيها، توفر تازيازت أيضًا الحل الأكثر ملاءمة للوصول إليها بسرعة.',
+    title: 'صحتكم أولويتنا: شبكة تازيازت الصحية في موريتانيا',
+    description: 'اعثر على المراكز الطبية والصيدليات القريبة المشمولة في خطتك الصحية.',
     searchPlaceholder: 'البحث عن المرافق الطبية...',
     filter: 'تصفية',
     filterFacilities: 'تصفية المرافق',
@@ -140,7 +140,7 @@ export const translations: TranslationsStore = {
     speciality: 'تخصص',
     city: 'مدينة',
     type: 'نوع',
-    footer: 'تم إنشاء هذا الموقع من قبل موظف في تازيازت؛ ومع ذلك، فإن تازيازت ليست مسؤولة عن أي أخطاء.',
+    footer: 'تم تطوير هذا الموقع لتسهيل الأمور على موظفي تازيازت. على الرغم من أننا نسعى لتوفير معلومات دقيقة ومحدثة، فإن شركة تازيازت غير مسؤولة عن أي أخطاء محتملة. إذا لاحظتم أي أخطاء، يرجى التواصل مباشرة مع قسم تكنولوجيا المعلومات في تازيازت. وللأسئلة أو الملاحظات، يرجى التواصل مع قسم الموارد البشرية في تازيازت.',
     types: {
       clinique: 'عيادة',
       cabinet: 'مكتب طبي',
