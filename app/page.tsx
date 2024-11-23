@@ -90,7 +90,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-[#c69b5f] rounded overflow-hidden">
                 <Image
-                  src="/images/kinross-tasiaset.jpg"
+                  src="/images/k.jpg"
                   alt="Logo"
                   width={32}
                   height={32}
@@ -109,7 +109,7 @@ export default function Home() {
               </span>
               <div className="w-8 h-8 bg-[#c69b5f] rounded overflow-hidden">
                 <Image
-                  src="/images/kinross-tasiaset.jpg"
+                  src="/images/k.jpg"
                   alt="Logo"
                   width={32}
                   height={32}
@@ -127,7 +127,7 @@ export default function Home() {
       <header className="relative py-32 px-4 overflow-hidden mt-16">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/header-bg.jpg"
+            src="/images/kinross-tasiaset.jpg"
             alt="Kinross Tasiast"
             fill
             className={`object-cover transition-transform duration-1000 ${
