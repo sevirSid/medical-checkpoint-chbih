@@ -90,7 +90,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-[#c69b5f] rounded overflow-hidden">
                 <Image
-                  src="/logo.png"
+                  src="/images/k.jpg"
                   alt="Logo"
                   width={32}
                   height={32}
