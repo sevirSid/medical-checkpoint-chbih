@@ -109,7 +109,7 @@ export default function Home() {
               </span>
               <div className="w-8 h-8 bg-[#c69b5f] rounded overflow-hidden">
                 <Image
-                  src="/logo.png"
+                  src="/images/kinross-tasiaset.jpg"
                   alt="Logo"
                   width={32}
                   height={32}
