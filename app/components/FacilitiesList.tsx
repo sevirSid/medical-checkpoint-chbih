@@ -32,7 +32,7 @@ export default function FacilitiesList({ facilities }: FacilitiesListProps) {
     const message = type === 'phone'
       ? `Hello, I have information about the phone number for ${facilityName} (ID: ${facility.id})`
       : `Hello, I have information about the location for ${facilityName} (ID: ${facility.id})`;
-    const whatsappUrl = `https://wa.me/+22242285899 text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+22242285899?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
